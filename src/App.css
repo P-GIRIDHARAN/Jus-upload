@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.body {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(140, 181, 209);
+}
+.image-holder {
+  margin-top: 10px;
+  width: 50rem;
+  height: 50rem;
+  border-color: black;
+  background-color: rgb(140, 181, 209);
+}
+.main-image img {
+  border-color: rgb(140, 181, 209);
+  margin-left: 20%;
+  display: block;
+  height: 35rem;
+  width: 50rem;
+}
